@@ -1,0 +1,61 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.form {
+  width: 400px;
+  margin: 10px auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  display: flex;
+  margin-left: 550px;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color:lightgrey;
+}
+
+a {
+  display: flex;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  margin-left: 480px;
+}

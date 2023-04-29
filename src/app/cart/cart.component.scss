@@ -1,0 +1,40 @@
+.product-list{
+
+}
+
+.product-box{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 5px;
+  width:900px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+p{
+  display: flex;
+  margin-top: 45px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+a{
+  display: flex;
+}
+
+.del{
+  margin-left: auto;
+  margin-right: 1.1em;
+  height: 30px;
+  display: flex;
+  margin-top: 40px;
+}
+
+

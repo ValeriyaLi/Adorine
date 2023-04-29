@@ -1,0 +1,52 @@
+.info {
+  width: 100%;
+  overflow: hidden;
+  margin-top: -100px;
+}
+
+.title {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  /* Changed the order of margin values */
+  margin: 150px 150px 0 0;
+  float: right;
+  padding-right: 30px;
+}
+
+img {
+  float: left;
+  margin: 150px 100px 0 40px;
+  border-radius: 50px;
+  height: 600px;
+  width: 470px;
+}
+
+ul {
+  background-color: #F5E8D6;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin-right: 50px;
+  white-space: pre-wrap;
+  list-style-type: none; /* Moved the list-style-type property to here */
+}
+
+.ul-list-wp {
+  display: flex;
+  flex-wrap: wrap; /* Added flex-wrap property to wrap list items */
+  align-items: center; /* Added align-items property to center list items vertically */
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  width: 500px;
+  height: 400px;
+  padding: 10px 40px 10px 10px; /* Changed the padding values */
+  margin: 90px 10px 0 0; /* Changed the margin values */
+  text-align: justify;
+}
+
+li {
+  padding: 10px 10px; /* Combined padding values */
+  text-align: left;
+}
